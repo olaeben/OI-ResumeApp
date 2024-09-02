@@ -7,24 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2F95EF2C85D9DD00422269 /* OIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F95EE2C85D9DD00422269 /* OIBase.swift */; };
+		3D2F95F22C85E04900422269 /* OI_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F95F12C85E04900422269 /* OI_PortfolioTests.swift */; };
+		3D2F95F52C85E66C00422269 /* OI_PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F95E32C85D94A00422269 /* OI_PortfolioUITests.swift */; };
+		3D2F95FB2C8642D400422269 /* portfolioPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F95FA2C8642D300422269 /* portfolioPage.swift */; };
 		3D8009F52C7F26A700015444 /* OI_PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8009F42C7F26A700015444 /* OI_PortfolioApp.swift */; };
-		3D8009F72C7F26A700015444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8009F62C7F26A700015444 /* ContentView.swift */; };
+		3D8009F72C7F26A700015444 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8009F62C7F26A700015444 /* PortfolioView.swift */; };
 		3D8009F92C7F26AC00015444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8009F82C7F26AC00015444 /* Assets.xcassets */; };
 		3D8009FC2C7F26AC00015444 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8009FB2C7F26AC00015444 /* Preview Assets.xcassets */; };
-		3D800A062C7F26AC00015444 /* OI_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A052C7F26AC00015444 /* OI_PortfolioTests.swift */; };
-		3D800A102C7F26AD00015444 /* OI_PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A0F2C7F26AD00015444 /* OI_PortfolioUITests.swift */; };
-		3D800A122C7F26AD00015444 /* OI_PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A112C7F26AD00015444 /* OI_PortfolioUITestsLaunchTests.swift */; };
+		3D800A382C7F29DC00015444 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A262C7F29C900015444 /* Montserrat-Thin.ttf */; };
+		3D800A392C7F29DC00015444 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A272C7F29C900015444 /* Montserrat-Bold.ttf */; };
+		3D800A3A2C7F29DC00015444 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A282C7F29CA00015444 /* Montserrat-SemiBold.ttf */; };
+		3D800A3B2C7F29DC00015444 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A292C7F29CA00015444 /* Montserrat-Light.ttf */; };
+		3D800A3C2C7F29DC00015444 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A2A2C7F29CC00015444 /* Montserrat-Medium.ttf */; };
+		3D800A3D2C7F29DC00015444 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A2B2C7F29CD00015444 /* Montserrat-BoldItalic.ttf */; };
+		3D800A3E2C7F29DC00015444 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A2C2C7F29CE00015444 /* Montserrat-LightItalic.ttf */; };
+		3D800A3F2C7F29DC00015444 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A2D2C7F29CF00015444 /* Montserrat-ExtraBold.ttf */; };
+		3D800A402C7F29DC00015444 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A2E2C7F29D000015444 /* Montserrat-BlackItalic.ttf */; };
+		3D800A412C7F29DC00015444 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A2F2C7F29D100015444 /* Montserrat-MediumItalic.ttf */; };
+		3D800A422C7F29DC00015444 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A302C7F29D300015444 /* Montserrat-ThinItalic.ttf */; };
+		3D800A432C7F29DC00015444 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A312C7F29D400015444 /* Montserrat-Black.ttf */; };
+		3D800A442C7F29DC00015444 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A322C7F29D500015444 /* Montserrat-Italic.ttf */; };
+		3D800A452C7F29DC00015444 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A332C7F29D500015444 /* Montserrat-ExtraLight.ttf */; };
+		3D800A462C7F29DC00015444 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A342C7F29D600015444 /* Montserrat-ExtraBoldItalic.ttf */; };
+		3D800A472C7F29DC00015444 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A352C7F29D600015444 /* Montserrat-SemiBoldItalic.ttf */; };
+		3D800A482C7F29DC00015444 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A362C7F29DB00015444 /* Montserrat-ExtraLightItalic.ttf */; };
+		3D800A492C7F29DC00015444 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D800A372C7F29DC00015444 /* Montserrat-Regular.ttf */; };
+		3D800A4F2C7F35E900015444 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A4E2C7F35E900015444 /* ColorExtensions.swift */; };
+		3D800A522C7F391F00015444 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A512C7F391F00015444 /* FontManager.swift */; };
+		3D800A542C7F3A0100015444 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A532C7F3A0100015444 /* Portfolio.swift */; };
+		3D800A562C7F3BAC00015444 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A552C7F3BAC00015444 /* AppModel.swift */; };
+		3D800A592C7F44F600015444 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A582C7F44F600015444 /* HeaderView.swift */; };
+		3D800A5B2C7F50C200015444 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A5A2C7F50C200015444 /* SkillView.swift */; };
+		3D800A5D2C7F5A2600015444 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A5C2C7F5A2600015444 /* SkillsView.swift */; };
+		3D800A602C7F613800015444 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A5F2C7F613800015444 /* ExperienceView.swift */; };
+		3D800A622C7F644C00015444 /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D800A612C7F644C00015444 /* ExperiencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D800A022C7F26AC00015444 /* PBXContainerItemProxy */ = {
+		3D2F95E72C85D94A00422269 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D8009E92C7F26A700015444 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D8009F02C7F26A700015444;
 			remoteInfo = OI_Portfolio;
 		};
-		3D800A0C2C7F26AD00015444 /* PBXContainerItemProxy */ = {
+		3D800A022C7F26AC00015444 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D8009E92C7F26A700015444 /* Project object */;
 			proxyType = 1;
@@ -34,19 +62,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D2F95E12C85D94A00422269 /* OI_PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OI_PortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2F95E32C85D94A00422269 /* OI_PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OI_PortfolioUITests.swift; sourceTree = "<group>"; };
+		3D2F95EE2C85D9DD00422269 /* OIBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIBase.swift; sourceTree = "<group>"; };
+		3D2F95F02C85DEAC00422269 /* OI_Portfolio.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OI_Portfolio.xctestplan; sourceTree = "<group>"; };
+		3D2F95F12C85E04900422269 /* OI_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OI_PortfolioTests.swift; sourceTree = "<group>"; };
+		3D2F95FA2C8642D300422269 /* portfolioPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = portfolioPage.swift; sourceTree = "<group>"; };
 		3D8009F12C7F26A700015444 /* OI_Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OI_Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8009F42C7F26A700015444 /* OI_PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OI_PortfolioApp.swift; sourceTree = "<group>"; };
-		3D8009F62C7F26A700015444 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D8009F62C7F26A700015444 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		3D8009F82C7F26AC00015444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D8009FB2C7F26AC00015444 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D800A012C7F26AC00015444 /* OI_PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OI_PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D800A052C7F26AC00015444 /* OI_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OI_PortfolioTests.swift; sourceTree = "<group>"; };
-		3D800A0B2C7F26AD00015444 /* OI_PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OI_PortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D800A0F2C7F26AD00015444 /* OI_PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OI_PortfolioUITests.swift; sourceTree = "<group>"; };
-		3D800A112C7F26AD00015444 /* OI_PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OI_PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D800A262C7F29C900015444 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		3D800A272C7F29C900015444 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3D800A282C7F29CA00015444 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3D800A292C7F29CA00015444 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		3D800A2A2C7F29CC00015444 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		3D800A2B2C7F29CD00015444 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3D800A2C2C7F29CE00015444 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		3D800A2D2C7F29CF00015444 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3D800A2E2C7F29D000015444 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3D800A2F2C7F29D100015444 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3D800A302C7F29D300015444 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3D800A312C7F29D400015444 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		3D800A322C7F29D500015444 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		3D800A332C7F29D500015444 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3D800A342C7F29D600015444 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3D800A352C7F29D600015444 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3D800A362C7F29DB00015444 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3D800A372C7F29DC00015444 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3D800A4C2C7F321300015444 /* OI-Portfolio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OI-Portfolio-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3D800A4E2C7F35E900015444 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		3D800A512C7F391F00015444 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		3D800A532C7F3A0100015444 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		3D800A552C7F3BAC00015444 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		3D800A582C7F44F600015444 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3D800A5A2C7F50C200015444 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		3D800A5C2C7F5A2600015444 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		3D800A5F2C7F613800015444 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		3D800A612C7F644C00015444 /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3D2F95DE2C85D94A00422269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D8009EE2C7F26A700015444 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,22 +126,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D800A082C7F26AD00015444 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2F95E22C85D94A00422269 /* OI_PortfolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F95F92C8642A900422269 /* Pages */,
+				3D2F95ED2C85D9B100422269 /* OITest */,
+				3D2F95EC2C85D9A000422269 /* OIBaseTest */,
+			);
+			path = OI_PortfolioUITests;
+			sourceTree = "<group>";
+		};
+		3D2F95EC2C85D9A000422269 /* OIBaseTest */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F95EE2C85D9DD00422269 /* OIBase.swift */,
+			);
+			path = OIBaseTest;
+			sourceTree = "<group>";
+		};
+		3D2F95ED2C85D9B100422269 /* OITest */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F95E32C85D94A00422269 /* OI_PortfolioUITests.swift */,
+			);
+			path = OITest;
+			sourceTree = "<group>";
+		};
+		3D2F95F92C8642A900422269 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F95FA2C8642D300422269 /* portfolioPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		3D8009E82C7F26A700015444 = {
 			isa = PBXGroup;
 			children = (
+				3D2F95F02C85DEAC00422269 /* OI_Portfolio.xctestplan */,
+				3D800A4C2C7F321300015444 /* OI-Portfolio-Info.plist */,
 				3D8009F32C7F26A700015444 /* OI_Portfolio */,
 				3D800A042C7F26AC00015444 /* OI_PortfolioTests */,
-				3D800A0E2C7F26AD00015444 /* OI_PortfolioUITests */,
+				3D2F95E22C85D94A00422269 /* OI_PortfolioUITests */,
 				3D8009F22C7F26A700015444 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +180,7 @@
 			children = (
 				3D8009F12C7F26A700015444 /* OI_Portfolio.app */,
 				3D800A012C7F26AC00015444 /* OI_PortfolioTests.xctest */,
-				3D800A0B2C7F26AD00015444 /* OI_PortfolioUITests.xctest */,
+				3D2F95E12C85D94A00422269 /* OI_PortfolioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +188,10 @@
 		3D8009F32C7F26A700015444 /* OI_Portfolio */ = {
 			isa = PBXGroup;
 			children = (
-				3D8009F42C7F26A700015444 /* OI_PortfolioApp.swift */,
-				3D8009F62C7F26A700015444 /* ContentView.swift */,
-				3D8009F82C7F26AC00015444 /* Assets.xcassets */,
-				3D8009FA2C7F26AC00015444 /* Preview Content */,
+				3D800A4D2C7F35C500015444 /* Extensions */,
+				3D800A202C7F284100015444 /* Code */,
+				3D800A502C7F38D000015444 /* Utilities */,
+				3D800A1F2C7F279F00015444 /* Resources */,
 			);
 			path = OI_Portfolio;
 			sourceTree = "<group>";
@@ -113,23 +207,139 @@
 		3D800A042C7F26AC00015444 /* OI_PortfolioTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D800A052C7F26AC00015444 /* OI_PortfolioTests.swift */,
+				3D2F95F12C85E04900422269 /* OI_PortfolioTests.swift */,
 			);
 			path = OI_PortfolioTests;
 			sourceTree = "<group>";
 		};
-		3D800A0E2C7F26AD00015444 /* OI_PortfolioUITests */ = {
+		3D800A1F2C7F279F00015444 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3D800A0F2C7F26AD00015444 /* OI_PortfolioUITests.swift */,
-				3D800A112C7F26AD00015444 /* OI_PortfolioUITestsLaunchTests.swift */,
+				3D800A252C7F290100015444 /* Fonts */,
+				3D8009F82C7F26AC00015444 /* Assets.xcassets */,
+				3D8009FA2C7F26AC00015444 /* Preview Content */,
 			);
-			path = OI_PortfolioUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D800A202C7F284100015444 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A222C7F286000015444 /* Models */,
+				3D800A212C7F284700015444 /* Controllers */,
+				3D800A242C7F287E00015444 /* Services */,
+				3D800A232C7F287200015444 /* Views */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		3D800A212C7F284700015444 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D8009F42C7F26A700015444 /* OI_PortfolioApp.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D800A222C7F286000015444 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A532C7F3A0100015444 /* Portfolio.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D800A232C7F287200015444 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A572C7F44DE00015444 /* SupportViews */,
+				3D8009F62C7F26A700015444 /* PortfolioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D800A242C7F287E00015444 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A552C7F3BAC00015444 /* AppModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3D800A252C7F290100015444 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A312C7F29D400015444 /* Montserrat-Black.ttf */,
+				3D800A2E2C7F29D000015444 /* Montserrat-BlackItalic.ttf */,
+				3D800A272C7F29C900015444 /* Montserrat-Bold.ttf */,
+				3D800A2B2C7F29CD00015444 /* Montserrat-BoldItalic.ttf */,
+				3D800A2D2C7F29CF00015444 /* Montserrat-ExtraBold.ttf */,
+				3D800A342C7F29D600015444 /* Montserrat-ExtraBoldItalic.ttf */,
+				3D800A332C7F29D500015444 /* Montserrat-ExtraLight.ttf */,
+				3D800A362C7F29DB00015444 /* Montserrat-ExtraLightItalic.ttf */,
+				3D800A322C7F29D500015444 /* Montserrat-Italic.ttf */,
+				3D800A292C7F29CA00015444 /* Montserrat-Light.ttf */,
+				3D800A2C2C7F29CE00015444 /* Montserrat-LightItalic.ttf */,
+				3D800A2A2C7F29CC00015444 /* Montserrat-Medium.ttf */,
+				3D800A2F2C7F29D100015444 /* Montserrat-MediumItalic.ttf */,
+				3D800A372C7F29DC00015444 /* Montserrat-Regular.ttf */,
+				3D800A282C7F29CA00015444 /* Montserrat-SemiBold.ttf */,
+				3D800A352C7F29D600015444 /* Montserrat-SemiBoldItalic.ttf */,
+				3D800A262C7F29C900015444 /* Montserrat-Thin.ttf */,
+				3D800A302C7F29D300015444 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D800A4D2C7F35C500015444 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A4E2C7F35E900015444 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D800A502C7F38D000015444 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A512C7F391F00015444 /* FontManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3D800A572C7F44DE00015444 /* SupportViews */ = {
+			isa = PBXGroup;
+			children = (
+				3D800A582C7F44F600015444 /* HeaderView.swift */,
+				3D800A5A2C7F50C200015444 /* SkillView.swift */,
+				3D800A5C2C7F5A2600015444 /* SkillsView.swift */,
+				3D800A5F2C7F613800015444 /* ExperienceView.swift */,
+				3D800A612C7F644C00015444 /* ExperiencesView.swift */,
+			);
+			path = SupportViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3D2F95E02C85D94A00422269 /* OI_PortfolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2F95EB2C85D94A00422269 /* Build configuration list for PBXNativeTarget "OI_PortfolioUITests" */;
+			buildPhases = (
+				3D2F95DD2C85D94A00422269 /* Sources */,
+				3D2F95DE2C85D94A00422269 /* Frameworks */,
+				3D2F95DF2C85D94A00422269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2F95E82C85D94A00422269 /* PBXTargetDependency */,
+			);
+			name = OI_PortfolioUITests;
+			productName = OI_PortfolioUITests;
+			productReference = 3D2F95E12C85D94A00422269 /* OI_PortfolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		3D8009F02C7F26A700015444 /* OI_Portfolio */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D800A152C7F26AD00015444 /* Build configuration list for PBXNativeTarget "OI_Portfolio" */;
@@ -165,24 +375,6 @@
 			productReference = 3D800A012C7F26AC00015444 /* OI_PortfolioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D800A0A2C7F26AD00015444 /* OI_PortfolioUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D800A1B2C7F26AD00015444 /* Build configuration list for PBXNativeTarget "OI_PortfolioUITests" */;
-			buildPhases = (
-				3D800A072C7F26AD00015444 /* Sources */,
-				3D800A082C7F26AD00015444 /* Frameworks */,
-				3D800A092C7F26AD00015444 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D800A0D2C7F26AD00015444 /* PBXTargetDependency */,
-			);
-			name = OI_PortfolioUITests;
-			productName = OI_PortfolioUITests;
-			productReference = 3D800A0B2C7F26AD00015444 /* OI_PortfolioUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,15 +385,16 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					3D2F95E02C85D94A00422269 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3D8009F02C7F26A700015444;
+					};
 					3D8009F02C7F26A700015444 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 					3D800A002C7F26AC00015444 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 3D8009F02C7F26A700015444;
-					};
-					3D800A0A2C7F26AD00015444 = {
-						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = 3D8009F02C7F26A700015444;
 					};
 				};
@@ -221,18 +414,43 @@
 			targets = (
 				3D8009F02C7F26A700015444 /* OI_Portfolio */,
 				3D800A002C7F26AC00015444 /* OI_PortfolioTests */,
-				3D800A0A2C7F26AD00015444 /* OI_PortfolioUITests */,
+				3D2F95E02C85D94A00422269 /* OI_PortfolioUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3D2F95DF2C85D94A00422269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D8009EF2C7F26A700015444 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D800A472C7F29DC00015444 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				3D800A442C7F29DC00015444 /* Montserrat-Italic.ttf in Resources */,
+				3D800A3D2C7F29DC00015444 /* Montserrat-BoldItalic.ttf in Resources */,
+				3D800A432C7F29DC00015444 /* Montserrat-Black.ttf in Resources */,
+				3D800A3B2C7F29DC00015444 /* Montserrat-Light.ttf in Resources */,
+				3D800A392C7F29DC00015444 /* Montserrat-Bold.ttf in Resources */,
+				3D800A402C7F29DC00015444 /* Montserrat-BlackItalic.ttf in Resources */,
 				3D8009FC2C7F26AC00015444 /* Preview Assets.xcassets in Resources */,
+				3D800A492C7F29DC00015444 /* Montserrat-Regular.ttf in Resources */,
+				3D800A3C2C7F29DC00015444 /* Montserrat-Medium.ttf in Resources */,
+				3D800A3F2C7F29DC00015444 /* Montserrat-ExtraBold.ttf in Resources */,
+				3D800A382C7F29DC00015444 /* Montserrat-Thin.ttf in Resources */,
 				3D8009F92C7F26AC00015444 /* Assets.xcassets in Resources */,
+				3D800A3A2C7F29DC00015444 /* Montserrat-SemiBold.ttf in Resources */,
+				3D800A462C7F29DC00015444 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				3D800A422C7F29DC00015444 /* Montserrat-ThinItalic.ttf in Resources */,
+				3D800A482C7F29DC00015444 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				3D800A452C7F29DC00015444 /* Montserrat-ExtraLight.ttf in Resources */,
+				3D800A412C7F29DC00015444 /* Montserrat-MediumItalic.ttf in Resources */,
+				3D800A3E2C7F29DC00015444 /* Montserrat-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,22 +461,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D800A092C7F26AD00015444 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D2F95DD2C85D94A00422269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2F95F52C85E66C00422269 /* OI_PortfolioUITests.swift in Sources */,
+				3D2F95FB2C8642D400422269 /* portfolioPage.swift in Sources */,
+				3D2F95EF2C85D9DD00422269 /* OIBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D8009ED2C7F26A700015444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8009F72C7F26A700015444 /* ContentView.swift in Sources */,
+				3D8009F72C7F26A700015444 /* PortfolioView.swift in Sources */,
+				3D800A562C7F3BAC00015444 /* AppModel.swift in Sources */,
+				3D800A622C7F644C00015444 /* ExperiencesView.swift in Sources */,
 				3D8009F52C7F26A700015444 /* OI_PortfolioApp.swift in Sources */,
+				3D800A5D2C7F5A2600015444 /* SkillsView.swift in Sources */,
+				3D800A522C7F391F00015444 /* FontManager.swift in Sources */,
+				3D800A5B2C7F50C200015444 /* SkillView.swift in Sources */,
+				3D800A4F2C7F35E900015444 /* ColorExtensions.swift in Sources */,
+				3D800A542C7F3A0100015444 /* Portfolio.swift in Sources */,
+				3D800A602C7F613800015444 /* ExperienceView.swift in Sources */,
+				3D800A592C7F44F600015444 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,35 +496,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D800A062C7F26AC00015444 /* OI_PortfolioTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D800A072C7F26AD00015444 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D800A102C7F26AD00015444 /* OI_PortfolioUITests.swift in Sources */,
-				3D800A122C7F26AD00015444 /* OI_PortfolioUITestsLaunchTests.swift in Sources */,
+				3D2F95F22C85E04900422269 /* OI_PortfolioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3D2F95E82C85D94A00422269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8009F02C7F26A700015444 /* OI_Portfolio */;
+			targetProxy = 3D2F95E72C85D94A00422269 /* PBXContainerItemProxy */;
+		};
 		3D800A032C7F26AC00015444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3D8009F02C7F26A700015444 /* OI_Portfolio */;
 			targetProxy = 3D800A022C7F26AC00015444 /* PBXContainerItemProxy */;
 		};
-		3D800A0D2C7F26AD00015444 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D8009F02C7F26A700015444 /* OI_Portfolio */;
-			targetProxy = 3D800A0C2C7F26AD00015444 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3D2F95E92C85D94A00422269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P785DR7B45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oi.portfolio.OI-PortfolioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OI_Portfolio;
+			};
+			name = Debug;
+		};
+		3D2F95EA2C85D94A00422269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P785DR7B45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oi.portfolio.OI-PortfolioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OI_Portfolio;
+			};
+			name = Release;
+		};
 		3D800A132C7F26AD00015444 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -395,6 +652,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -404,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -421,10 +679,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OI_Portfolio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OI_Portfolio/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = P785DR7B45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OI-Portfolio-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,10 +709,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OI_Portfolio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OI_Portfolio/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = P785DR7B45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OI-Portfolio-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +737,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P785DR7B45;
@@ -486,6 +747,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "oi.portfolio.OI-PortfolioTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OI_Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OI_Portfolio";
@@ -497,6 +759,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P785DR7B45;
@@ -512,45 +775,18 @@
 			};
 			name = Release;
 		};
-		3D800A1C2C7F26AD00015444 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P785DR7B45;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "oi.portfolio.OI-PortfolioUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OI_Portfolio;
-			};
-			name = Debug;
-		};
-		3D800A1D2C7F26AD00015444 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P785DR7B45;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "oi.portfolio.OI-PortfolioUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OI_Portfolio;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D2F95EB2C85D94A00422269 /* Build configuration list for PBXNativeTarget "OI_PortfolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2F95E92C85D94A00422269 /* Debug */,
+				3D2F95EA2C85D94A00422269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3D8009EC2C7F26A700015444 /* Build configuration list for PBXProject "OI_Portfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -574,15 +810,6 @@
 			buildConfigurations = (
 				3D800A192C7F26AD00015444 /* Debug */,
 				3D800A1A2C7F26AD00015444 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D800A1B2C7F26AD00015444 /* Build configuration list for PBXNativeTarget "OI_PortfolioUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D800A1C2C7F26AD00015444 /* Debug */,
-				3D800A1D2C7F26AD00015444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "F85DF1FB-F700-413E-A022-C422F24FFA38",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:OI_Portfolio.xcodeproj",
+      "identifier" : "3D8009F02C7F26A700015444",
+      "name" : "OI_Portfolio"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OI_Portfolio.xcodeproj",
+        "identifier" : "3D800A002C7F26AC00015444",
+        "name" : "OI_PortfolioTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OI_Portfolio.xcodeproj",
+        "identifier" : "3D2F95E02C85D94A00422269",
+        "name" : "OI_PortfolioUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
